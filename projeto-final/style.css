@@ -1,0 +1,236 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+
+  background: #2e1616;
+  padding: 20px 60px;
+
+  font-family: 'Arial';
+  color: white;
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 36px;
+    }
+
+    #divInput {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      width: 600px;
+      padding: 24px;
+      border-radius: 10px;
+      background: #f6cfcf;
+      margin: 24px;
+
+      #pesquisa-input {
+        width: 95%;
+        border: none;
+        background: #f6cfcf;
+        font-size: 18px;
+      }
+
+      #pesquisa-input:focus {
+        outline: none;
+      }
+
+      #lupa {
+        width: 20px;
+        height: auto;
+        cursor: pointer;
+      }
+    }
+
+    #mostrarFavoritosBtn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 18px;
+      border-radius: 10px;
+      padding: 12px;
+      background: #f6cfcf;
+      border: none;
+      cursor: pointer;
+      transition: all 0.1s ease;
+    }
+
+    #mostrarFavoritosBtn:hover {
+      background: #f7b5b5;
+    }
+
+    #mostrarFavoritosBtn:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px #666;
+    }
+  }
+
+  #filmesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+
+
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 32px;
+      max-width: 300px;
+      min-height: 201px;
+      padding: 32px;
+
+      border-radius: 8px;
+      background: #3b1c1c;
+
+      box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.4);
+
+      .capa {
+        width: 150px;
+        box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.779);
+      }
+    }
+
+    .divCard {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .titulo {
+        font-size: 18px;
+      }
+
+      .favoriteButton {
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 12px;
+        background: #f6cfcf;
+        border: none;
+        cursor: pointer;
+        transition: all 0.1s ease;
+      }
+
+      .favoriteButton:hover, .salvarNotaBtn:hover {
+        background: #f7b5b5;
+      }
+
+      .favoriteButton:active, .salvarNotaBtn:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px #666;
+      }
+
+      .nota {
+        width: 82%;
+        height: 80px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        border: none;
+        background: #f6cfcf;
+        resize: none;
+      }
+
+      .salvarNotaBtn {
+        font-weight: bold;
+        width: 80px;
+        font-size: 12px;
+        border-radius: 10px;
+        background: #f6cfcf;
+        border: none;
+        cursor: pointer;
+        margin-left: 15px;
+        transition: all 0.1s ease;
+      }
+
+    }
+  }
+
+  #lista-vazia {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    text-align: center;
+    width: 700px;
+    height: 70px;
+    padding: 32px;
+    border-radius: 8px;
+    background: #3b1c1c;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  #sugestaoMensagem {
+    padding-top: 32px;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  #filmesSugestoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+
+
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 32px;
+      width: 200px;
+      height: 120px;
+      padding: 32px;
+
+      border-radius: 8px;
+      background: #3b1c1c;
+
+      box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.4);
+
+      .capa {
+        width: 80px;
+        box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.779);
+      }
+    }
+
+    .divCard {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .titulo {
+        font-size: 14px;
+      }
+
+      .favoriteButton {
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 8px;
+        background: #f6cfcf;
+        border: none;
+        cursor: pointer;
+        transition: all 0.1s ease;
+      }
+
+      .favoriteButton:hover {
+        background: #f7b5b5;
+      }
+
+      .favoriteButton:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px #666;
+      }
+    }
+  }
+}

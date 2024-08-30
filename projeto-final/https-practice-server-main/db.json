@@ -1,0 +1,85 @@
+[
+	{
+		"adult": false,
+		"backdrop_path": "/1ZFUt0LtYkF568iCkRXCScgBP5g.jpg",
+		"genre_ids": [
+			14,
+			16,
+			878,
+			10751
+		],
+		"id": 0,
+		"original_language": "ja",
+		"original_title": "映画 デジモンアドベンチャー",
+		"overview": "Um grupo de crianças transportado para o DigiMundo, onde conhece um grupo de monstros digitais chamado Digimon, com os quais se unem para combater o mal. Entretanto, Diabormon, um Digimon maligno, cria um vírus de internet que destrói dados do sistema de defesa dos Estados Unidos, no intuito de causar o envio de um míssil para o território japonês. Para evitar o desastre, todos os habitantes do DigiMundo se unem para salvar o mundo real e também seu próprio mundo.",
+		"popularity": 11.356,
+		"poster_path": "/tiH1muonzAWzlLjPhjAcAYVAjzm.jpg",
+		"release_date": "2000-03-04",
+		"title": "Digimon: O Filme",
+		"video": false,
+		"vote_average": 6.6,
+		"vote_count": 267,
+		"note": "Muito bom!!"
+	},
+	{
+		"adult": false,
+		"backdrop_path": "/pkxPkHOPJjOvzfQOclANEBT8OfK.jpg",
+		"genre_ids": [
+			12,
+			14
+		],
+		"id": 1,
+		"original_language": "en",
+		"original_title": "Harry Potter and the Order of the Phoenix",
+		"overview": "A rebelião começa! Lord Voldemort está de volta, mas o Ministério da Magia está fazendo tudo a seu alcance para impedir que a comunidade mundial de bruxos descubra isso – incluindo indicar a oficial do Ministério, Dolores Umbridge, como a nova professora de Defesa Contra as Artes das Trevas de Hogwarts. Quando Umbridge se recusa a ensinar a prática de mágica defensiva, Rony e Hermione convencem Harry a secretamente treinar um grupo de estudantes para a guerra de magia que está prestes a estourar. Um terrível combate entre o bem e o mal será o incrível ápice desta versão para o quinto filme da série Harry Potter, mais uma vez baseado na obra de J.K. Rowling. Se prepare para a batalha!",
+		"popularity": 90.459,
+		"poster_path": "/tIf9aUyNljda9MG1pjlOLHCZ3b0.jpg",
+		"release_date": "2007-07-08",
+		"title": "Harry Potter e a Ordem da Fênix",
+		"video": false,
+		"vote_average": 7.681,
+		"vote_count": 19174,
+		"note": "Tem na HBO Max"
+	},
+	{
+		"adult": false,
+		"backdrop_path": "/bcFlmrov1e5CCxZA7ZskGJ6QIh.jpg",
+		"genre_ids": [
+			18,
+			27
+		],
+		"id": 2,
+		"original_language": "en",
+		"original_title": "The Babadook",
+		"overview": "Amelia, viúva e ainda atormentada pela violenta morte do marido, tenta lidar com o medo de monstros que aterroriza seu único filho, o pequeno rebelde Samuel, e enfrenta dificuldades em amar o garoto. Após encontrar um misterioso livro, o menino, certo de que há um monstro que deseja matá-lo, começa a agir irracionalmente para o desespero de sua mãe. Mas logo Amelia percebe que realmente há uma sinistra presença na casa e ao redor deles.",
+		"popularity": 24.939,
+		"poster_path": "/3dnkHdiyvdUK3oHkxTnjjnNXaq.jpg",
+		"release_date": "2014-05-22",
+		"title": "O Babadook",
+		"video": false,
+		"vote_average": 6.522,
+		"vote_count": 5858,
+		"note": "Recomendado por Ana "
+	},
+	{
+		"adult": false,
+		"backdrop_path": "/acktCBsLJcgEJsjTuyiQhJipCD6.jpg",
+		"genre_ids": [
+			28,
+			80,
+			18,
+			53
+		],
+		"id": 3,
+		"original_language": "en",
+		"original_title": "Fast & Furious",
+		"overview": "Dominic Toretto descobre que sua amada Letty foi assassinada e resolve procurar pelo autor do crime. Enquanto isso, o agente Brian O'Conner está em busca de um traficante de drogas. Eles percebem que talvez procurem a mesma pessoa.",
+		"popularity": 6.691,
+		"poster_path": "/7sjbAOmNFtfTyZ6KFC9t9FDDOcK.jpg",
+		"release_date": "2009-04-02",
+		"title": "Velozes e Furiosos 4",
+		"video": false,
+		"vote_average": 6.687,
+		"vote_count": 7103
+	}
+]
